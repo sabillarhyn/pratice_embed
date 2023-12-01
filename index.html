@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2</title>
+</head>
+
+<body bgcolor="fec89a"> <!-- memberi background warna ke seluruh halaman -->
+
+    <table width="100%"> <!--perintah untuk membuat sebuah tabel, width untuk mengatur luas tabel (digunakan 100% berarti lebar tabel memenuhi 1 halaman penuh)-->
+
+        <tr background ="header.jpg" height="100"> <!--tr untuk membuat baris, background untuk mengatur latar baris (digunakan foto untuk header), height untuk mengatur tinggi baris-->
+            <td colspan="3"></td> <!--td untuk membuat kolom, colspan 3 untuk menggabungkan 3 kolom-->
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center"> 
+                <br> <!--untuk memberi jarak dengan konten di atasnya-->
+                <input type="search" name="search" style="width: 70%;"> <!--untuk membuat box input searching, style untuk mengatur panjang box-->
+                <button type="submit"> Search </button> <!--untuk membuat tombol submit dari searching-->
+            </td>
+            <td rowspan="4" valign="top"> <!--rowspan untuk menggabungkan 4 kolom, valign top untuk mengatur tulisan berada di sisi atas-->
+                <h2>Terbaru</h2> <!--digunakan h2 untuk ukuran judul sub konten-->
+                <ul> <!--untuk membuat unordered list atau list yang tidak di urutkan-->
+                    <li><p>Studio.NNG & JEAN BASQUIAT</p></li><!--li untuk isi list-->
+                    <li><p>Studio.NNG x Jang Sung Kyu - MV Making Cut</p></li>
+                    <li><p></p>NNG = NaNuGi</p></li>
+                    <li><p>LOEYMENTARY</p></li>
+                    <li><p>End of May / Loey, mq and Sehun</p></li>
+                </ul>
+
+                <hr> <!--untuk membuat garis pembatas-->
+
+                <h2>Terpopuler</h2> <!--digunakan h2 untuk ukuran judul sub konten-->
+                <ol> <!--untuk membuat ordered list atau list yang di urutkan-->
+                    <li><p>[MV] I'M FINE - mq x Loey</p></li><!--li untuk isi list-->
+                    <li><p>[MV] 넘쳐흘러 - 장성규 x 이해리</p></li>
+                    <li><p>[MV] SLOW WALK - mq x Loey</p></li>
+                    <li><p>[MV] 익숙해 - mq x Loey</p></li>
+                    <li><p>20191231 엑소 콘서트 찬열의 서프라이즈 영상편지 [Chanyeol's secret VCR to surprise EXO members at EXplOration]</p></li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center" width="900px"> <!--untuk membuat kolom, align center agar konten dalam kolom berada di tengah, width untuk mengatur lebar kolom-->
+
+                <br> <!--untuk memberi jarak dengan koten di atasnya-->
+
+                <iframe width="631" height="370" src="https://www.youtube.com/embed/-vUenSa-GU4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--untuk memasukkan video dari youtube-->
+            </td>
+        </tr>
+
+        <tr>
+            <td width="60px"> <img src="logonng.png" height="50px" align="left"> </td> <!--membuat kolom dengan dengan isian foto logo channel berukuran tinggi 50px dan diposisikan di kiri-->
+            <td> <strong> NNG ᄂᄂᄀ </strong> <!--strong untuk membuat tulisan tebal-->
+                <br><!--untuk berganti baris-->
+                1,32m subscriber 
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <strong>Description</strong> <!-- strong untuk membuat tulisan tebal-->
+                <!--p untuk membuat paragraf / baris baru agak jauh dari tulisan deskripsi--><p>The first music and music video produced through the stories and donations of NANUMI has been released!
+                <!--berganti baris menggunakan br agar jarak tidak jauh seperti menggunakan p--><br>We sincerely thank all of you for sharing your episodes and donations.
+                <br>We will continue to reward you with good music and video.
+                <br>Please look forward to the next project!
+
+                <hr> <!--untuk membuat garis batas-->
+
+                <label for="comment"><h3>Comment</h3></label> <!--label keterangan kolom komentar-->
+                <textarea name="comment" id="" cols="40" rows="5"></textarea> <!--text box untuk kolom komentar yang bisa di sesuaikan lagi ukurannya-->
+        </td>
+        </tr>
+
+    </table> <!--penutup tabel-->
+
+</body>
+</html>
